@@ -1,6 +1,5 @@
 package co.com.sofka.BienesRaices.comercial.value;
 
-import co.com.sofka.BienesRaices.empleado.value.IdVendedor;
 import co.com.sofka.domain.generic.Identity;
 
 public class IdVenta extends Identity {
