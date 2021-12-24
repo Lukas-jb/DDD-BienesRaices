@@ -1,0 +1,21 @@
+
+y
+java:S1450"WRemove the "entityId" field and declare it as a local variable in the relevant methods.(•é¶ıÿÿÿÿ8Úƒ£ØŞ/
+}
+java:S1450"[Remove the "idInventario" field and declare it as a local variable in the relevant methods.(É»Ãèüÿÿÿÿ8Úƒ£ØŞ/
+r
+java:S1450"URemove the "nombre" field and declare it as a local variable in the relevant methods.(Ÿ—‚8Ûƒ£ØŞ/
+s
+java:S1450"WRemove the "telefono" field and declare it as a local variable in the relevant methods.(Ä†õ 8Ûƒ£ØŞ/
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òˆÊğ
+R
+java:S1068"0Remove this unused "idInventario" private field.(É»Ãèüÿÿÿÿ8Üƒ£ØŞ/
+N
+java:S1068",Remove this unused "entityId" private field.(•é¶ıÿÿÿÿ8İƒ£ØŞ/
+G
+java:S1068"*Remove this unused "nombre" private field.(Ÿ—‚8İƒ£ØŞ/
+H
+java:S1068",Remove this unused "telefono" private field.(Ä†õ 8İƒ£ØŞ/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(òÎˆÔ
+b
+java:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(òˆÊğ

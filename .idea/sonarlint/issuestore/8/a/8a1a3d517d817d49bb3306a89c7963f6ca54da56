@@ -1,0 +1,4 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ªü¿
+z
+java:S4165"dRemove this useless assignment; "precio" already holds the assigned value along all execution paths.( ©€ß
