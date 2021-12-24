@@ -5,12 +5,13 @@ import co.com.sofka.BienesRaices.inventario.value.*;
 import co.com.sofka.domain.generic.Entity;
 import co.com.sofka.domain.generic.Identity;
 
+import java.util.Objects;
+
 public class InmuebleSobrePlanos extends Entity {
     private final Ubicacion ubicacion;
     private final Tamano tamano;
-    private  final Diseno diseno;
-    private final Precio precio;
-
+    private final Diseno diseno;
+    private  Precio precio;
 
 
     public InmuebleSobrePlanos(Identity entityId, Ubicacion ubicacion, Tamano tamano, Diseno diseno, Precio precio) {
@@ -19,6 +20,11 @@ public class InmuebleSobrePlanos extends Entity {
         this.tamano = tamano;
         this.diseno = diseno;
         this.precio = precio;
+    }
+
+    public void ActualizarPrecio(Precio precio) {
+        this.precio = Objects.requireNonNull(precio);
+
     }
 
     public Ubicacion Ubicacion() {

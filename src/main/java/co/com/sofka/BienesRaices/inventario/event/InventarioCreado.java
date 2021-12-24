@@ -14,4 +14,12 @@ public class InventarioCreado extends DomainEvent {
         this.entityId = entityId;
         this.zona = zona;
     }
+
+    public IdInventario getEntityId() {
+        return entityId;
+    }
+
+    public Zona getZona() {
+        return zona;
+    }
 }

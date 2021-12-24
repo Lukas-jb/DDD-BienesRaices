@@ -7,7 +7,7 @@ import co.com.sofka.BienesRaices.empleado.value.IdVendedor;
 import co.com.sofka.BienesRaices.inventario.value.IdInmuebleContado;
 import co.com.sofka.domain.generic.DomainEvent;
 
-public class FacturaContadoCreada extends DomainEvent {
+public class FacturaInmuebleContadoCreada extends DomainEvent {
     private final IdVenta entityId;
     private final IdInmuebleContado inmuebleContado;
     private final IdVendedor idVendedor;
@@ -15,7 +15,7 @@ public class FacturaContadoCreada extends DomainEvent {
     private final IdCliente idCliente;
 
 
-    public FacturaContadoCreada(IdVenta entityId, IdInmuebleContado inmuebleContado, IdVendedor idVendedor, ValorTotal valorTotal, IdCliente idCliente) {
+    public FacturaInmuebleContadoCreada(IdVenta entityId, IdInmuebleContado inmuebleContado, IdVendedor idVendedor, ValorTotal valorTotal, IdCliente idCliente) {
         super("sofka.Comercial.FacturaContadoCreada");
 
         this.entityId = entityId;

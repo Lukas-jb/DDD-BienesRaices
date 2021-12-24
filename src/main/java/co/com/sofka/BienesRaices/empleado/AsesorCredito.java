@@ -7,17 +7,18 @@ import co.com.sofka.domain.generic.Entity;
 
 public class AsesorCredito extends Entity<IdAsesorCredito> {
 
-    private final Nombre Nombre;
-    private final Telefono telefono;
 
-    public AsesorCredito(IdAsesorCredito entityId, co.com.sofka.BienesRaices.generic.Nombre nombre, Telefono telefono) {
+    protected Nombre nombre;
+    protected Telefono telefono;
+
+    public AsesorCredito(IdAsesorCredito entityId, Nombre nombre, Telefono telefono) {
         super(entityId);
-        this.Nombre = nombre;
+        this.nombre = nombre;
         this.telefono = telefono;
     }
 
     public Nombre Nombre() {
-        return Nombre;
+        return nombre;
     }
 
     public Telefono Telefono() {
