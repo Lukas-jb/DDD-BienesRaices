@@ -7,8 +7,8 @@ import co.com.sofka.domain.generic.Entity;
 
 public class Cliente extends Entity<IdCliente> {
 
-    private final Nombre nombre;
-    private  final Telefono telefono;
+    protected  Nombre nombre;
+    protected  Telefono telefono;
 
     public Cliente(IdCliente entityId, Nombre nombre, Telefono telefono) {
         super(entityId);
@@ -16,11 +16,11 @@ public class Cliente extends Entity<IdCliente> {
         this.telefono = telefono;
     }
 
-    public Nombre Nombre() {
+    public Nombre nombre() {
         return nombre;
     }
 
-    public Telefono Telefono() {
+    public Telefono telefono() {
         return telefono;
     }
 

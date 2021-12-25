@@ -17,11 +17,11 @@ public class AsesorCredito extends Entity<IdAsesorCredito> {
         this.telefono = telefono;
     }
 
-    public Nombre Nombre() {
+    public Nombre nombre() {
         return nombre;
     }
 
-    public Telefono Telefono() {
+    public Telefono telefono() {
         return telefono;
     }
 }

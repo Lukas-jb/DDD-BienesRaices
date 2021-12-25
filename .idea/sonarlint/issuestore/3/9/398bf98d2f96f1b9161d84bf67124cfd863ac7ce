@@ -1,12 +1,0 @@
-
-B
-java:S1602",Remove useless curly braces around statement(¶§Ùº
-G
-java:S1602",Remove useless curly braces around statement(ÒÕ´ÿÿÿÿÿ
-G
-java:S1602",Remove useless curly braces around statement(–¼¤øÿÿÿÿ
-G
-java:S1602 ",Remove useless curly braces around statement(ƒñ¬üÿÿÿÿ
-o
-java:S1192+"YDefine a constant instead of duplicating this literal "No se encuentra Inmueble" 3 times.(‰ÒÑÎ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ªü¿

@@ -6,19 +6,17 @@ import co.com.sofka.domain.generic.Entity;
 
 public class Venta extends Entity<IdVenta> {
 
-    private final IdInmueble idInmueble;
-    protected final IdVendedor idVendedor;
-    protected final IdCliente idCliente;
-    protected final Compraventa compraventa;
-    protected final ValorTotal valorTotal;
+    protected  IdInmueble idInmueble;
+    protected  IdVendedor idVendedor;
+    protected  IdCliente idCliente;
+    protected  ValorTotal valorTotal;
 
 
-    public Venta(IdVenta entityId, IdInmueble idInmueble, IdVendedor idVendedor, IdCliente idCliente, Compraventa compraventa, ValorTotal valorTotal) {
+    public Venta(IdVenta entityId, IdInmueble idInmueble, IdVendedor idVendedor, IdCliente idCliente, ValorTotal valorTotal) {
         super(entityId);
         this.idInmueble = idInmueble;
         this.idVendedor = idVendedor;
         this.idCliente = idCliente;
-        this.compraventa = compraventa;
         this.valorTotal = valorTotal;
     }
 
@@ -32,10 +30,6 @@ public class Venta extends Entity<IdVenta> {
 
     public IdCliente IdCliente() {
         return idCliente;
-    }
-
-    public Compraventa Compraventa() {
-        return compraventa;
     }
 
     public ValorTotal ValorTotal() {

@@ -15,7 +15,7 @@ public class AgregarInmuebleContado extends Command {
     private Tamano tamano;
     private Precio precio;
 
-    public void AgregarInmuebleContado(IdInventario idInventario, IdInmuebleContado entityId, Ubicacion ubicacion, Tamano tamano, Precio precio) {
+    public AgregarInmuebleContado(IdInventario idInventario, IdInmuebleContado entityId, Ubicacion ubicacion, Tamano tamano, Precio precio) {
 
 
         this.idInventario = idInventario;

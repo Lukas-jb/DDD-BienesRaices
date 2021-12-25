@@ -6,7 +6,7 @@ import co.com.sofka.domain.generic.Entity;
 
 public class SalaVentas extends Entity<IdSalaVentas> {
 
-    private final Ubicacion ubicacion;
+    protected Ubicacion ubicacion;
 
     public SalaVentas(IdSalaVentas entityId, Ubicacion ubicacion) {
         super(entityId);

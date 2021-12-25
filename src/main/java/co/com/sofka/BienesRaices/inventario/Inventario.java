@@ -37,7 +37,7 @@ public class Inventario extends AggregateEvent<IdInventario> {
     }
 
 
-    public void AgregarInmuebleContado(IdInmuebleContado entityId, Ubicacion ubicacion, Tamano tamano, Precio precio) {
+    public void agregarInmuebleContado(IdInmuebleContado entityId, Ubicacion ubicacion, Tamano tamano, Precio precio) {
         Objects.nonNull(entityId);
         Objects.nonNull(ubicacion);
         Objects.nonNull(tamano);
@@ -45,7 +45,7 @@ public class Inventario extends AggregateEvent<IdInventario> {
         appendChange(new InmuebleContadoAgregado(entityId, ubicacion, tamano, precio));
     }
 
-    public void AgregarInmueblrCredito(IdInmuebleCredito entityId, Ubicacion ubicacion, Tamano tamano, Precio precio, CuotaInicial cuotaInicial, NumeroCuotas numeroCuotas) {
+    public void agregarInmueblrCredito(IdInmuebleCredito entityId, Ubicacion ubicacion, Tamano tamano, Precio precio, CuotaInicial cuotaInicial, NumeroCuotas numeroCuotas) {
         Objects.nonNull(entityId);
         Objects.nonNull(ubicacion);
         Objects.nonNull(tamano);
@@ -56,7 +56,7 @@ public class Inventario extends AggregateEvent<IdInventario> {
 
     }
 
-    public void AgregarInmuebleSobrePlanos(IdInmuebleSobrePlanos entityId, Ubicacion ubicacion, Tamano tamano, Diseno diseno, Precio precio) {
+    public void agregarInmuebleSobrePlanos(IdInmuebleSobrePlanos entityId, Ubicacion ubicacion, Tamano tamano, Diseno diseno, Precio precio) {
         Objects.nonNull(entityId);
         Objects.nonNull(ubicacion);
         Objects.nonNull(tamano);
@@ -68,13 +68,13 @@ public class Inventario extends AggregateEvent<IdInventario> {
 
     }
 
-    public void ActualizarPrecioInmueblrContado(IdInmuebleContado entityId, Precio precio) {
+    public void actualizarPrecioInmueblrContado(IdInmuebleContado entityId, Precio precio) {
         Objects.nonNull(entityId);
         Objects.nonNull(precio);
         appendChange(new PrecioInmuebleContadoActualizado(entityId, precio));
     }
 
-    public void ActualizarPrecioInmueblrSobrePlanos(IdInmuebleSobrePlanos entityId, Precio precio) {
+    public void actualizarPrecioInmueblrSobrePlanos(IdInmuebleSobrePlanos entityId, Precio precio) {
         Objects.nonNull(entityId);
         Objects.nonNull(precio);
         appendChange(new PrecionInmuebleSobrePlanosActualizado(entityId, precio));
@@ -122,4 +122,6 @@ public class Inventario extends AggregateEvent<IdInventario> {
     public Set<InmuebleContado> inmueblesContado() {
         return inmueblesContado;
     }
+
+
 }
