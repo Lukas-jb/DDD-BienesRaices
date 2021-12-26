@@ -27,14 +27,14 @@ public class ActualizarNumeroCuotasInmueblesCreditoUseCase extends UseCase<Reque
                 new Ubicacion("calle 43 d"),
                 new Tamano(140),
                 new Precio(5000000),
-                new CuotaInicial(2000000),
+                new CuotaInicial(30000000),
                 new NumeroCuotas(48)
         );
         inventario.actualizarNumeroCuotasInmueblesCredito(
                 command.getEntityId(),
                 command.getNumeroCuotas());
 
-        emit().onResponse(new ResponseEvents(inventario.getUncommittedChanges() ));
+        emit().onResponse(new ResponseEvents(inventario.getUncommittedChanges()));
 
     }
 }

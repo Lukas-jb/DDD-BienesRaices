@@ -14,7 +14,7 @@ public class AgregarInmuebleContadoUseCase extends UseCase<RequestCommand<Agrega
     @Override
     public void executeUseCase(RequestCommand<AgregarInmuebleContado> agregarInmuebleContadoRequestCommand) {
 
-        /*var comman = agregarInmuebleContadoRequestCommand.getCommand();
+        var command = agregarInmuebleContadoRequestCommand.getCommand();
 
         Inventario inventario;
 
@@ -24,13 +24,14 @@ public class AgregarInmuebleContadoUseCase extends UseCase<RequestCommand<Agrega
         );
 
         inventario.agregarInmuebleContado(
-                comman.getUbicacion(),
-                comman.getTamano(),
-                comman.getPrecio()
+                command.getEntityId(),
+                command.getUbicacion(),
+                command.getTamano(),
+                command.getPrecio()
         );
 
-        emit().onResponse(new ResponseEvents(inventario.getUncommittedChanges() ));
-*/
+        emit().onResponse(new ResponseEvents(inventario.getUncommittedChanges()));
+
 
     }
 }

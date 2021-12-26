@@ -24,7 +24,7 @@ public class NumeroCuotas implements ValueObject<Integer> {
 
     @Override
     public Integer value() {
-        return null;
+        return value;
     }
 
     @Override

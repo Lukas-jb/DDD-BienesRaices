@@ -13,12 +13,8 @@ Lsrc/main/java/co/com/sofka/BienesRaices/empleado/event/VendedorAgregado.java,6
 Usrc/main/java/co/com/sofka/BienesRaices/empleado/event/NombreVendedorActualizado.java,1\d\1dc118ef057e5fa040a590e787a091ecfaef22c0
 m
 =src/main/java/co/com/sofka/BienesRaices/empleado/Gerente.java,a\1\a1bc9486d3a9169f8d841ad58a0c48b243e998ff
-{
-Ksrc/main/java/co/com/sofka/BienesRaices/inventario/InmuebleSobrePlanos.java,9\4\9499e0082f672607bf7bbb99cd5b4577dfeb556f
 n
 >src/main/java/co/com/sofka/BienesRaices/empleado/Vendedor.java,3\f\3f1941bb0be4601d27ef04063888cc6db44bbed7
-w
-Gsrc/main/java/co/com/sofka/BienesRaices/inventario/InmuebleCredito.java,8\a\8a1a3d517d817d49bb3306a89c7963f6ca54da56
 ‡
 Wsrc/main/java/co/com/sofka/BienesRaices/empleado/event/TelefonoVendedorActualizado.java,7\5\750d357525f50a5e5874109c722d4c8531c221e9
 v
@@ -33,8 +29,6 @@ Osrc/main/java/co/com/sofka/BienesRaices/inventario/value/IdInmuebleContado.java
 csrc/main/java/co/com/sofka/BienesRaices/inventario/event/PrecionInmuebleSobrePlanosActualizado.java,7\7\7701ab89e0735cc5684bd3def3f401dfb7a323fe
 Ž
 ^src/main/java/co/com/sofka/BienesRaices/inventario/event/PrecioInmuebleContadoActualizado.java,6\6\664e3659be6718de294e03ab3957571e641061cf
-”
-dsrc/main/java/co/com/sofka/BienesRaices/inventario/event/NumeroCuotasInmuebleCreditoActualizado.java,f\1\f1c4da4a9a935cf008ae099393f9f98b78ff3bc2
 ƒ
 Ssrc/main/java/co/com/sofka/BienesRaices/inventario/value/IdInmuebleSobrePlanos.java,4\4\44f5c71164e16721d1f01bfddef0d73581036eea
 ‰
@@ -63,8 +57,6 @@ _src/main/java/co/com/sofka/BienesRaices/inventario/command/ActualizarPrecioInmu
 csrc/main/java/co/com/sofka/BienesRaices/inventario/command/ActualizarPrecioInmuebleSobrePlanos.java,3\5\350c91af42936dc013617c7209ba714cc1470f96
 Š
 Zsrc/main/java/co/com/sofka/BienesRaices/inventario/command/AgregarInmuebleSobrePlanos.java,6\7\67a94bd2f0942d3ec0a928d64edd97393c4cef91
-†
-Vsrc/main/java/co/com/sofka/BienesRaices/inventario/command/AgregarInmuebleCredito.java,4\7\47e7cd65c76bc3b7ce9d845b22bb892dbfe1ecf2
 {
 Ksrc/main/java/co/com/sofka/BienesRaices/empleado/value/IdAsesorCredito.java,4\1\4185b499f275b0d840a74d29e69086975f257ab7
 †

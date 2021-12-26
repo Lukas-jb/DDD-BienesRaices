@@ -14,7 +14,7 @@ public class Tamano implements ValueObject<Double> {
             throw new IllegalArgumentException("El tamaño no puede ser menor a 40 metros cuadrados");
         }
         if (this.value > 100000) {
-            throw new IllegalArgumentException("El tamaño no puede tener más 100.000  metros cuadrados");
+            throw new IllegalArgumentException("El tamaño no puede tener mayor 100.000  metros cuadrados");
         }
     }
 

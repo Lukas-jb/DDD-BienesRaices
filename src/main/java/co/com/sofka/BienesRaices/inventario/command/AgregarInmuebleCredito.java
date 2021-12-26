@@ -13,7 +13,7 @@ public class AgregarInmuebleCredito extends Command {
     private CuotaInicial cuotaInicial;
     private NumeroCuotas numeroCuotas;
 
-    public void AgregarInmueblrCredito(IdInventario inventario, IdInmuebleCredito entityId, Ubicacion ubicacion, Tamano tamano, Precio precio, CuotaInicial cuotaInicial, NumeroCuotas numeroCuotas) {
+    public AgregarInmuebleCredito(IdInventario inventario, IdInmuebleCredito entityId, Ubicacion ubicacion, Tamano tamano, Precio precio, CuotaInicial cuotaInicial, NumeroCuotas numeroCuotas) {
         this.inventario = inventario;
         this.entityId = entityId;
         this.ubicacion = ubicacion;

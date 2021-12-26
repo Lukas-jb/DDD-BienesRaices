@@ -11,7 +11,7 @@ public class ActualizarNumeroCuotasInmueblesCredito extends Command {
     private IdInmuebleCredito entityId;
     private NumeroCuotas numeroCuotas;
 
-    public void actualizarNumeroCuotasInmueblesCredito(IdInventario inventario, IdInmuebleCredito entityId, NumeroCuotas numeroCuotas){
+    public ActualizarNumeroCuotasInmueblesCredito(IdInventario inventario, IdInmuebleCredito entityId, NumeroCuotas numeroCuotas){
         this.inventario = inventario;
         this.entityId = entityId;
         this.numeroCuotas = numeroCuotas;

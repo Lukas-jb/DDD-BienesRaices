@@ -2,13 +2,11 @@ package useCase.comercial;
 
 import co.com.sofka.BienesRaices.comercial.Comercial;
 import co.com.sofka.BienesRaices.comercial.command.CrearComercial;
-import co.com.sofka.BienesRaices.inventario.Inventario;
 import co.com.sofka.business.generic.UseCase;
 import co.com.sofka.business.support.RequestCommand;
 import co.com.sofka.business.support.ResponseEvents;
 
 public class CrearComercialUseCase extends UseCase<RequestCommand<CrearComercial>, ResponseEvents> {
-
 
     @Override
     public void executeUseCase(RequestCommand<CrearComercial> crearComercialRequestCommand) {
