@@ -16,7 +16,6 @@ public class CuotaInicial implements ValueObject<Integer> {
         if (this.value < 2000000) {
             throw new IllegalArgumentException("La cuota inicial no puede ser menor 20.000.000");
         }
-        System.out.println(this.value);
     }
 
     @Override

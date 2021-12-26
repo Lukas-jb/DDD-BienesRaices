@@ -17,8 +17,6 @@ n
 >src/main/java/co/com/sofka/BienesRaices/empleado/Vendedor.java,3\f\3f1941bb0be4601d27ef04063888cc6db44bbed7
 ‡
 Wsrc/main/java/co/com/sofka/BienesRaices/empleado/event/TelefonoVendedorActualizado.java,7\5\750d357525f50a5e5874109c722d4c8531c221e9
-v
-Fsrc/main/java/co/com/sofka/BienesRaices/empleado/value/IdEmpleado.java,1\0\106203e718b67809a2635306d28f385bff62a287
 u
 Esrc/main/java/co/com/sofka/BienesRaices/empleado/value/IdGerente.java,6\5\657addf0a6884c186305aaec38a7caef89525e6d
 v
@@ -67,9 +65,5 @@ Vsrc/main/java/co/com/sofka/BienesRaices/empleado/command/ActualizarNombreVended
 Wsrc/main/java/co/com/sofka/BienesRaices/empleado/command/ActualizarTelefonoGerente.java,8\2\82dcc1f05485df59899d7daab80f5a0c80e1b7a2
 ˆ
 Xsrc/main/java/co/com/sofka/BienesRaices/empleado/command/ActualizarTelefonoVendedor.java,8\d\8d616beabcda7691761173759d1d6dd071012c23
-‚
-Rsrc/main/java/co/com/sofka/BienesRaices/empleado/command/AgregarAsesorCredito.java,5\3\539f9c3b99529c17afeae44bb5239173b13c508c
-|
-Lsrc/main/java/co/com/sofka/BienesRaices/empleado/command/AgregarGerente.java,0\8\085faf4572095cd4e50b742e1d620ae39ab7a887
 }
 Msrc/main/java/co/com/sofka/BienesRaices/empleado/command/AgregarVendedor.java,6\c\6ca2f320847cb21971454e100a54950d26c539a8
