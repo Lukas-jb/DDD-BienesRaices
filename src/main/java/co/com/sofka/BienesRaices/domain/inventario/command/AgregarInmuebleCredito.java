@@ -5,13 +5,13 @@ import co.com.sofka.BienesRaices.domain.inventario.value.*;
 import co.com.sofka.domain.generic.Command;
 
 public class AgregarInmuebleCredito extends Command {
-    private IdInventario inventario;
-    private IdInmuebleCredito entityId;
-    private Ubicacion ubicacion;
-    private Tamano tamano;
-    private Precio precio;
-    private CuotaInicial cuotaInicial;
-    private NumeroCuotas numeroCuotas;
+    private final IdInventario inventario;
+    private final IdInmuebleCredito entityId;
+    private final Ubicacion ubicacion;
+    private final Tamano tamano;
+    private final Precio precio;
+    private final CuotaInicial cuotaInicial;
+    private final NumeroCuotas numeroCuotas;
 
     public AgregarInmuebleCredito(IdInventario idInventario, IdInmuebleCredito entityId, Ubicacion ubicacion, Tamano tamano, Precio precio, CuotaInicial cuotaInicial, NumeroCuotas numeroCuotas) {
         this.inventario = idInventario;

@@ -9,11 +9,11 @@ import co.com.sofka.BienesRaices.domain.inventario.value.Tamano;
 import co.com.sofka.domain.generic.Command;
 
 public class AgregarInmuebleContado extends Command {
-    private IdInventario idInventario;
-    private IdInmuebleContado entityId;
-    private Ubicacion ubicacion;
-    private Tamano tamano;
-    private Precio precio;
+    private final IdInventario idInventario;
+    private final IdInmuebleContado entityId;
+    private final Ubicacion ubicacion;
+    private final Tamano tamano;
+    private final Precio precio;
 
     public AgregarInmuebleContado(IdInventario idInventario, IdInmuebleContado entityId, Ubicacion ubicacion, Tamano tamano, Precio precio) {
 

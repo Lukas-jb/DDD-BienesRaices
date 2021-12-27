@@ -7,9 +7,9 @@ import co.com.sofka.domain.generic.Command;
 
 public class ActualizarNumeroCuotasInmueblesCredito extends Command {
 
-    private IdInventario inventario;
-    private IdInmuebleCredito entityId;
-    private NumeroCuotas numeroCuotas;
+    private final IdInventario inventario;
+    private final IdInmuebleCredito entityId;
+    private final NumeroCuotas numeroCuotas;
 
     public ActualizarNumeroCuotasInmueblesCredito(IdInventario inventario, IdInmuebleCredito entityId, NumeroCuotas numeroCuotas){
         this.inventario = inventario;

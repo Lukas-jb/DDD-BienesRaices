@@ -9,7 +9,6 @@ import co.com.sofka.domain.generic.DomainEvent;
 
 public class InmuebleSobrePlanosAgregado extends DomainEvent {
 
-
     private final IdInmuebleSobrePlanos entityId;
     private final Ubicacion ubicacion;
     private final Tamano tamano;

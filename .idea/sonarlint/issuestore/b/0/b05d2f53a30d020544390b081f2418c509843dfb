@@ -1,0 +1,14 @@
+
+M
+java:S2160"+Override the "equals" method in this class.(¯î‚‘üÿÿÿÿ8³õÓß/
+j	java:S100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö¼‘‰8¸õÓß/
+j	java:S1003"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ»8»õÓß/
+j	java:S100:"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„û¯İ8¼õÓß/
+o	java:S100A"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ¢ ˜üÿÿÿÿ8½õÓß/
+j	java:S100H"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÅ¬Œ8¿õÓß/
+i	java:S100O"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù“³f8ÀõÓß/
+j	java:S100V"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÂ™ı8ÂõÓß/
+o	java:S100]"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­‹ö–ıÿÿÿÿ8ÃõÓß/
+s
+java:S2159g"VRemove this call to "equals"; comparisons between unrelated types always return false.(ü “À8ÆõÓß/
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õœÙ®úÿÿÿÿ8ÔÓ”Ìß/

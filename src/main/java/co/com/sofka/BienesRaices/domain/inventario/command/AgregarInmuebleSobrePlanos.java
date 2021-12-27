@@ -6,12 +6,12 @@ import co.com.sofka.domain.generic.Command;
 
 public class AgregarInmuebleSobrePlanos extends Command {
 
-    private IdInventario idInventario;
-    private IdInmuebleSobrePlanos entityId;
-    private Ubicacion ubicacion;
-    private Tamano tamano;
-    private Diseno diseno;
-    private Precio precio;
+    private  IdInventario idInventario;
+    private  IdInmuebleSobrePlanos entityId;
+    private  Ubicacion ubicacion;
+    private  Tamano tamano;
+    private  Diseno diseno;
+    private  Precio precio;
 
     public void AgregarInmuebleSobrePlanos(IdInventario idInventario, IdInmuebleSobrePlanos entityId, Ubicacion ubicacion, Tamano tamano, Diseno diseno, Precio precio) {
 

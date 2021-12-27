@@ -6,7 +6,6 @@ import co.com.sofka.domain.generic.DomainEvent;
 
 public class NumeroCuotasInmuebleCreditoActualizado extends DomainEvent {
 
-
     private final IdInmuebleCredito entityId;
     private final NumeroCuotas numeroCuotas;
 

@@ -1,0 +1,14 @@
+
+G
+java:S1602
+",Remove useless curly braces around statement(‡†υΉύÿÿÿÿ
+J
+java:S1481"/Remove this unused "Vendedores" local variable.(«θόÿÿÿÿ
+G
+java:S1602",Remove useless curly braces around statement(Π›η°ώÿÿÿÿ
+G
+java:S1602$",Remove useless curly braces around statement(“φ»ψÿÿÿÿ
+B
+java:S1602'",Remove useless curly braces around statement(υΑΏ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«θόÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(υΩ®ϊÿÿÿÿ
