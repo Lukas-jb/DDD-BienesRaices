@@ -1,7 +1,7 @@
 package useCase.Inventario;
 
-import co.com.sofka.BienesRaices.inventario.Inventario;
-import co.com.sofka.BienesRaices.inventario.command.CrearInventario;
+import domain.inventario.Inventario;
+import domain.inventario.command.CrearInventario;
 import co.com.sofka.business.generic.UseCase;
 import co.com.sofka.business.support.RequestCommand;
 import co.com.sofka.business.support.ResponseEvents;

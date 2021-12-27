@@ -1,13 +1,13 @@
 package useCase.comercial;
 
-import co.com.sofka.BienesRaices.comercial.command.AgregarCliente;
-import co.com.sofka.BienesRaices.comercial.event.ClienteAgregado;
-import co.com.sofka.BienesRaices.comercial.event.ComercialCreado;
-import co.com.sofka.BienesRaices.comercial.value.IdCliente;
-import co.com.sofka.BienesRaices.comercial.value.IdComercial;
-import co.com.sofka.BienesRaices.generic.Nombre;
-import co.com.sofka.BienesRaices.generic.Telefono;
-import co.com.sofka.BienesRaices.generic.Ubicacion;
+import domain.comercial.command.AgregarCliente;
+import domain.comercial.event.ClienteAgregado;
+import domain.comercial.event.ComercialCreado;
+import domain.comercial.value.IdCliente;
+import domain.comercial.value.IdComercial;
+import domain.generic.Nombre;
+import domain.generic.Telefono;
+import domain.generic.Ubicacion;
 import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.repository.DomainEventRepository;
 import co.com.sofka.business.support.RequestCommand;
@@ -21,7 +21,6 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.List;
 
-import static org.mockito.ArgumentMatchers.anyList;
 import static org.mockito.Mockito.when;
 
 

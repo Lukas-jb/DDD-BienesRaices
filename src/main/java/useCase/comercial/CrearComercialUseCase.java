@@ -1,7 +1,7 @@
 package useCase.comercial;
 
-import co.com.sofka.BienesRaices.comercial.Comercial;
-import co.com.sofka.BienesRaices.comercial.command.CrearComercial;
+import domain.comercial.Comercial;
+import domain.comercial.command.CrearComercial;
 import co.com.sofka.business.generic.UseCase;
 import co.com.sofka.business.support.RequestCommand;
 import co.com.sofka.business.support.ResponseEvents;

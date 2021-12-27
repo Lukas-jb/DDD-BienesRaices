@@ -1,10 +1,10 @@
 package useCase.Inventario;
 
 
-import co.com.sofka.BienesRaices.generic.Zona;
-import co.com.sofka.BienesRaices.inventario.command.CrearInventario;
-import co.com.sofka.BienesRaices.inventario.event.InventarioCreado;
-import co.com.sofka.BienesRaices.inventario.value.IdInventario;
+import domain.generic.Zona;
+import domain.inventario.command.CrearInventario;
+import domain.inventario.event.InventarioCreado;
+import domain.inventario.value.IdInventario;
 import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.support.RequestCommand;
 import org.junit.jupiter.api.Assertions;

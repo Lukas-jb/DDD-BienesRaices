@@ -1,10 +1,10 @@
 package useCase.comercial;
 
-import co.com.sofka.BienesRaices.comercial.command.CrearComercial;
-import co.com.sofka.BienesRaices.comercial.event.ComercialCreado;
-import co.com.sofka.BienesRaices.comercial.value.IdComercial;
-import co.com.sofka.BienesRaices.generic.Telefono;
-import co.com.sofka.BienesRaices.generic.Ubicacion;
+import domain.comercial.command.CrearComercial;
+import domain.comercial.event.ComercialCreado;
+import domain.comercial.value.IdComercial;
+import domain.generic.Telefono;
+import domain.generic.Ubicacion;
 import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.support.RequestCommand;
 import org.junit.jupiter.api.Assertions;

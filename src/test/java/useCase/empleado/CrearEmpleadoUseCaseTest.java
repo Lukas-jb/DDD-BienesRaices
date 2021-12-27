@@ -1,9 +1,9 @@
 package useCase.empleado;
 
-import co.com.sofka.BienesRaices.empleado.command.CrearEmpleado;
-import co.com.sofka.BienesRaices.empleado.event.EmpleadoCreado;
-import co.com.sofka.BienesRaices.empleado.value.IdEmpleado;
-import co.com.sofka.BienesRaices.generic.Zona;
+import domain.empleado.command.CrearEmpleado;
+import domain.empleado.event.EmpleadoCreado;
+import domain.empleado.value.IdEmpleado;
+import domain.generic.Zona;
 import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.support.RequestCommand;
 import org.junit.jupiter.api.Assertions;

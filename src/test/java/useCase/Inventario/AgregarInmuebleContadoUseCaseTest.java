@@ -1,14 +1,14 @@
 package useCase.Inventario;
 
-import co.com.sofka.BienesRaices.generic.Ubicacion;
-import co.com.sofka.BienesRaices.generic.Zona;
-import co.com.sofka.BienesRaices.inventario.command.AgregarInmuebleContado;
-import co.com.sofka.BienesRaices.inventario.event.InmuebleContadoAgregado;
-import co.com.sofka.BienesRaices.inventario.event.InventarioCreado;
-import co.com.sofka.BienesRaices.inventario.value.IdInmuebleContado;
-import co.com.sofka.BienesRaices.inventario.value.IdInventario;
-import co.com.sofka.BienesRaices.inventario.value.Precio;
-import co.com.sofka.BienesRaices.inventario.value.Tamano;
+import domain.generic.Ubicacion;
+import domain.generic.Zona;
+import domain.inventario.command.AgregarInmuebleContado;
+import domain.inventario.event.InmuebleContadoAgregado;
+import domain.inventario.event.InventarioCreado;
+import domain.inventario.value.IdInmuebleContado;
+import domain.inventario.value.IdInventario;
+import domain.inventario.value.Precio;
+import domain.inventario.value.Tamano;
 import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.repository.DomainEventRepository;
 import co.com.sofka.business.support.RequestCommand;

@@ -1,16 +1,14 @@
 package useCase.empleado;
 
-import co.com.sofka.BienesRaices.empleado.Empleado;
-import co.com.sofka.BienesRaices.empleado.command.AgregarAsesorCredito;
-import co.com.sofka.BienesRaices.empleado.value.IdAsesorCredito;
-import co.com.sofka.BienesRaices.empleado.value.IdEmpleado;
-import co.com.sofka.BienesRaices.generic.Zona;
-import co.com.sofka.BienesRaices.inventario.Inventario;
+import domain.empleado.Empleado;
+import domain.empleado.command.AgregarAsesorCredito;
+import domain.generic.Zona;
+import domain.inventario.Inventario;
 import co.com.sofka.business.generic.UseCase;
 import co.com.sofka.business.support.RequestCommand;
 import co.com.sofka.business.support.ResponseEvents;
 
-import static co.com.sofka.BienesRaices.empleado.Empleado.from;
+import static domain.empleado.Empleado.from;
 
 public class AgregarAsesorCreditoUseCase extends UseCase<RequestCommand<AgregarAsesorCredito>, ResponseEvents> {
     @Override

@@ -1,20 +1,17 @@
 package useCase.empleado;
 
-import co.com.sofka.BienesRaices.empleado.command.AgregarAsesorCredito;
-import co.com.sofka.BienesRaices.empleado.event.AsesorCreditoAgregado;
-import co.com.sofka.BienesRaices.empleado.event.EmpleadoCreado;
-import co.com.sofka.BienesRaices.empleado.value.IdAsesorCredito;
-import co.com.sofka.BienesRaices.empleado.value.IdEmpleado;
-import co.com.sofka.BienesRaices.generic.Nombre;
-import co.com.sofka.BienesRaices.generic.Telefono;
-import co.com.sofka.BienesRaices.generic.Zona;
-import co.com.sofka.BienesRaices.inventario.event.InventarioCreado;
-import co.com.sofka.BienesRaices.inventario.value.IdInventario;
+import domain.empleado.command.AgregarAsesorCredito;
+import domain.empleado.event.AsesorCreditoAgregado;
+import domain.empleado.event.EmpleadoCreado;
+import domain.empleado.value.IdAsesorCredito;
+import domain.empleado.value.IdEmpleado;
+import domain.generic.Nombre;
+import domain.generic.Telefono;
+import domain.generic.Zona;
 import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.repository.DomainEventRepository;
 import co.com.sofka.business.support.RequestCommand;
 import co.com.sofka.domain.generic.DomainEvent;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
@@ -24,7 +21,6 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)

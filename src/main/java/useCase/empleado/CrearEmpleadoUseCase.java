@@ -1,7 +1,7 @@
 package useCase.empleado;
 
-import co.com.sofka.BienesRaices.empleado.Empleado;
-import co.com.sofka.BienesRaices.empleado.command.CrearEmpleado;
+import domain.empleado.Empleado;
+import domain.empleado.command.CrearEmpleado;
 import co.com.sofka.business.generic.UseCase;
 import co.com.sofka.business.support.RequestCommand;
 import co.com.sofka.business.support.ResponseEvents;

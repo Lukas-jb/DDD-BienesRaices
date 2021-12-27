@@ -1,11 +1,11 @@
 package useCase.Inventario;
 
-import co.com.sofka.BienesRaices.generic.Ubicacion;
-import co.com.sofka.BienesRaices.generic.Zona;
-import co.com.sofka.BienesRaices.inventario.command.AgregarInmuebleCredito;
-import co.com.sofka.BienesRaices.inventario.event.InmuebleCreditoAgregado;
-import co.com.sofka.BienesRaices.inventario.event.InventarioCreado;
-import co.com.sofka.BienesRaices.inventario.value.*;
+import domain.generic.Ubicacion;
+import domain.generic.Zona;
+import domain.inventario.command.AgregarInmuebleCredito;
+import domain.inventario.event.InmuebleCreditoAgregado;
+import domain.inventario.event.InventarioCreado;
+import domain.inventario.value.*;
 import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.repository.DomainEventRepository;
 import co.com.sofka.business.support.RequestCommand;
@@ -20,7 +20,6 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import java.util.List;
 
 import static org.mockito.Mockito.when;
-import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(MockitoExtension.class)
 class AgregarInmuebleCreditoUseCaseTest {

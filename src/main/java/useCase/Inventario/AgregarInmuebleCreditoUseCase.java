@@ -1,11 +1,8 @@
 package useCase.Inventario;
 
-import co.com.sofka.BienesRaices.generic.Zona;
-import co.com.sofka.BienesRaices.inventario.Inventario;
-import co.com.sofka.BienesRaices.inventario.command.AgregarInmuebleCredito;
-import co.com.sofka.BienesRaices.inventario.command.CrearInventario;
-import co.com.sofka.BienesRaices.inventario.value.IdInmuebleCredito;
-import co.com.sofka.BienesRaices.inventario.value.IdInventario;
+import domain.generic.Zona;
+import domain.inventario.Inventario;
+import domain.inventario.command.AgregarInmuebleCredito;
 import co.com.sofka.business.generic.UseCase;
 import co.com.sofka.business.support.RequestCommand;
 import co.com.sofka.business.support.ResponseEvents;

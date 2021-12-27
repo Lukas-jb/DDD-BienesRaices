@@ -1,10 +1,10 @@
 package useCase.Inventario;
 
-import co.com.sofka.BienesRaices.generic.Ubicacion;
-import co.com.sofka.BienesRaices.inventario.command.ActualizarNumeroCuotasInmueblesCredito;
-import co.com.sofka.BienesRaices.inventario.command.AgregarInmuebleCredito;
-import co.com.sofka.BienesRaices.inventario.event.NumeroCuotasInmuebleCreditoActualizado;
-import co.com.sofka.BienesRaices.inventario.value.*;
+import domain.generic.Ubicacion;
+import domain.inventario.command.ActualizarNumeroCuotasInmueblesCredito;
+import domain.inventario.command.AgregarInmuebleCredito;
+import domain.inventario.event.NumeroCuotasInmuebleCreditoActualizado;
+import domain.inventario.value.*;
 import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.support.RequestCommand;
 import org.junit.jupiter.api.Assertions;

@@ -1,10 +1,10 @@
 package useCase.Inventario;
 
-import co.com.sofka.BienesRaices.generic.Ubicacion;
-import co.com.sofka.BienesRaices.generic.Zona;
-import co.com.sofka.BienesRaices.inventario.Inventario;
-import co.com.sofka.BienesRaices.inventario.command.ActualizarNumeroCuotasInmueblesCredito;
-import co.com.sofka.BienesRaices.inventario.value.*;
+import domain.generic.Ubicacion;
+import domain.generic.Zona;
+import domain.inventario.Inventario;
+import domain.inventario.command.ActualizarNumeroCuotasInmueblesCredito;
+import domain.inventario.value.*;
 import co.com.sofka.business.generic.UseCase;
 import co.com.sofka.business.support.RequestCommand;
 import co.com.sofka.business.support.ResponseEvents;
