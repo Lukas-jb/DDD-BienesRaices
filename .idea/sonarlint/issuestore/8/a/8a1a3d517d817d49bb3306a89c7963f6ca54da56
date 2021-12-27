@@ -1,0 +1,14 @@
+
+M
+java:S2160	"+Override the "equals" method in this class.(ÑÚÜ‹øÿÿÿÿ8„†Û ß/
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é­«Ôúÿÿÿÿ8††Û ß/
+U
+java:S1172"3Remove this unused method parameter "numeroCuotas".(é­«Ôúÿÿÿÿ8‡†Û ß/
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†¥ñ¾ùÿÿÿÿ8ˆ†Û ß/
+j	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îÿÊ8ˆ†Û ß/
+j	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÕÖƒ8ˆ†Û ß/
+o	java:S100*"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş’Ïøÿÿÿÿ8ˆ†Û ß/
+o	java:S100."NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ˜ˆÍúÿÿÿÿ8ˆ†Û ß/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ªü¿
+z
+java:S4165"dRemove this useless assignment; "precio" already holds the assigned value along all execution paths.( ©€ß

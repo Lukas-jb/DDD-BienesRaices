@@ -18,10 +18,7 @@ public class AgregarInmuebleContadoUseCase extends UseCase<RequestCommand<Agrega
 
         Inventario inventario;
 
-        inventario = new Inventario(
-                new IdInventario(),
-                new Zona(Zona.Valor.NORTE)
-        );
+        inventario = Inventario.from(command.getIdInventario(),retrieveEvents());
 
         inventario.agregarInmuebleContado(
                 command.getEntityId(),

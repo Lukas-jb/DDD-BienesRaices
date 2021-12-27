@@ -6,22 +6,22 @@ import co.com.sofka.BienesRaices.generic.Nombre;
 import co.com.sofka.BienesRaices.generic.Telefono;
 import co.com.sofka.domain.generic.Command;
 
-public class CrearCliente extends Command {
+public class AgregarCliente extends Command {
 
-    private IdComercial comercial;
-    private IdCliente entityId;
-    private Nombre nombre;
-    private Telefono telefono;
+    protected IdComercial idComercial;
+    protected IdCliente entityId;
+    protected Nombre nombre;
+    protected Telefono telefono;
 
-    public void crearCliente(IdComercial comercial, IdCliente entityId, Nombre nombre, Telefono telefono) {
-        this.comercial = comercial;
+    public AgregarCliente(IdComercial idComercial, IdCliente entityId, Nombre nombre, Telefono telefono) {
+        this.idComercial = idComercial;
         this.entityId = entityId;
         this.nombre = nombre;
         this.telefono = telefono;
     }
 
-    public IdComercial getComercial() {
-        return comercial;
+    public IdComercial getIdComercial() {
+        return idComercial;
     }
 
     public IdCliente getEntityId() {

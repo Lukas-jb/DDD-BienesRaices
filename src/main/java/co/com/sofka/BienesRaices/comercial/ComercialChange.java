@@ -12,7 +12,7 @@ public class ComercialChange extends EventChange {
             comercial.telefono = event.getTelefono();
         });
 
-        apply((ClientCreado event) -> {
+        apply((ClienteAgregado event) -> {
             comercial.cliente.nombre = event.getNombre();
             comercial.cliente.telefono = event.getTelefono();
         });

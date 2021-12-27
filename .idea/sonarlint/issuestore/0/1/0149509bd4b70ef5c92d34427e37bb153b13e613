@@ -1,0 +1,4 @@
+
+[
+java:S6206"ERefactor this class declaration to use 'record Diseno(String value)'.(Æ Š½
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™í™À

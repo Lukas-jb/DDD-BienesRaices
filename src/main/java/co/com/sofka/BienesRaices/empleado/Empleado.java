@@ -8,8 +8,12 @@ import co.com.sofka.BienesRaices.empleado.value.IdVendedor;
 import co.com.sofka.BienesRaices.generic.Nombre;
 import co.com.sofka.BienesRaices.generic.Telefono;
 import co.com.sofka.BienesRaices.generic.Zona;
+import co.com.sofka.BienesRaices.inventario.Inventario;
+import co.com.sofka.BienesRaices.inventario.value.IdInventario;
 import co.com.sofka.domain.generic.AggregateEvent;
+import co.com.sofka.domain.generic.DomainEvent;
 
+import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
@@ -31,6 +35,12 @@ public class Empleado extends AggregateEvent<IdEmpleado> {
     private Empleado (IdEmpleado entityId){
         super(entityId);
         subscribe(new EmpleadoChange(this));
+    }
+
+    public static Empleado from(IdEmpleado idEmpleado, List<DomainEvent> events) {
+        var empleado = new Empleado(idEmpleado);
+        events.forEach(empleado::applyEvent);
+        return empleado;
     }
 
     public void ActualizarNombreVendedor(IdVendedor entityId, Nombre nombre) {

@@ -1,0 +1,10 @@
+
+H
+java:S2160"+Override the "equals" method in this class.(ÓüÔ™8Æ×ëŞ/
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›’Š¨ıÿÿÿÿ8ò—¤ìŞ/
+o	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†¥ñ¾ùÿÿÿÿ8¢Æ×ëŞ/
+j	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ä¸ş8¢Æ×ëŞ/
+j	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÕÖƒ8¢Æ×ëŞ/
+V
+java:S1128	"4Remove this unused import 'java.security.PublicKey'.(ºâú½üÿÿÿÿ8Û ß/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ªü¿

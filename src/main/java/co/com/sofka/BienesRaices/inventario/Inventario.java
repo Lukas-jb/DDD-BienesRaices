@@ -13,7 +13,7 @@ import java.util.Optional;
 import java.util.Set;
 
 
-public class Inventario extends AggregateEvent<IdInventario> {
+public class    Inventario extends AggregateEvent<IdInventario> {
     protected Zona zona;
     protected Set<InmuebleSobrePlanos> inmueblesSobrePlanos;
     protected Set<InmuebleCredito> inmueblesCredito;
@@ -30,10 +30,10 @@ public class Inventario extends AggregateEvent<IdInventario> {
         subscribe(new InventarioChange(this));
     }
 
-    public static Inventario from(IdInventario idProfecional, List<DomainEvent> enets) {
-        var profesional = new Inventario(idProfecional);
-        enets.forEach(profesional::applyEvent);
-        return profesional;
+    public static Inventario from(IdInventario idInventario, List<DomainEvent> events) {
+        var inventario = new Inventario(idInventario);
+        events.forEach(inventario::applyEvent);
+        return inventario;
     }
 
 

@@ -2,24 +2,16 @@ package co.com.sofka.BienesRaices.comercial;
 
 import co.com.sofka.BienesRaices.comercial.event.*;
 import co.com.sofka.BienesRaices.comercial.value.*;
-import co.com.sofka.BienesRaices.empleado.Vendedor;
 import co.com.sofka.BienesRaices.empleado.value.IdEmpleado;
-import co.com.sofka.BienesRaices.empleado.value.IdVendedor;
 import co.com.sofka.BienesRaices.generic.Nombre;
 import co.com.sofka.BienesRaices.generic.Telefono;
 import co.com.sofka.BienesRaices.generic.Ubicacion;
-import co.com.sofka.BienesRaices.inventario.InmuebleCredito;
-import co.com.sofka.BienesRaices.inventario.Inventario;
-import co.com.sofka.BienesRaices.inventario.InventarioChange;
 import co.com.sofka.BienesRaices.inventario.value.IdInmuebleContado;
-import co.com.sofka.BienesRaices.inventario.value.IdInmuebleSobrePlanos;
 import co.com.sofka.BienesRaices.inventario.value.IdInventario;
 import co.com.sofka.domain.generic.AggregateEvent;
+import co.com.sofka.domain.generic.DomainEvent;
 
-import javax.swing.plaf.nimbus.NimbusLookAndFeel;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.Set;
+import java.util.*;
 
 
 public class Comercial extends AggregateEvent<IdComercial> {
@@ -44,11 +36,17 @@ public class Comercial extends AggregateEvent<IdComercial> {
         subscribe(new ComercialChange(this));
     }
 
-    public void crearCliente(IdCliente entityId, Nombre nombre, Telefono telefono) {
+    public static Comercial from(IdComercial entityId, List<DomainEvent> events){
+        var comercial = new Comercial(entityId);
+        events.forEach(comercial::applyEvent);
+        return comercial;
+    }
+
+    public void agregarCliente(IdCliente entityId, Nombre nombre, Telefono telefono) {
         Objects.nonNull(entityId);
         Objects.nonNull(nombre);
         Objects.nonNull(telefono);
-        appendChange(new ClientCreado(entityId, nombre, telefono));
+        appendChange(new ClienteAgregado(entityId, nombre, telefono));
 
     }
 

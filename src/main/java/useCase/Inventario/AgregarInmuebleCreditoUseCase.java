@@ -14,14 +14,11 @@ public class AgregarInmuebleCreditoUseCase extends UseCase<RequestCommand<Agrega
 
     @Override
     public void executeUseCase(RequestCommand<AgregarInmuebleCredito> agregarInmuebleCreditoRequestCommand) {
+
         var command = agregarInmuebleCreditoRequestCommand.getCommand();
 
         Inventario inventario;
-
-        inventario = new Inventario(
-                new IdInventario(),
-                new Zona(Zona.Valor.NORTE)
-        );
+        inventario = Inventario.from(command.getInventario(), retrieveEvents());
 
         inventario.agregarInmueblrCredito(
                 command.getEntityId(),
