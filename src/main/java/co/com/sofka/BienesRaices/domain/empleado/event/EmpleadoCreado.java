@@ -8,7 +8,7 @@ public class EmpleadoCreado extends DomainEvent {
     private final IdEmpleado entityId;
     private final Zona zona;
 
-    public EmpleadoCreado(IdEmpleado entityId, Zona zona) {
+    public EmpleadoCreado(IdEmpleado entityId, Zona zona, AsesorCreditoAgregado pablo) {
         super("sofka.Empleado.EmpleadoCreado");
         this.entityId = entityId;
         this.zona = zona;

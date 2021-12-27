@@ -34,7 +34,7 @@ public class EmpleadoChange extends EventChange {
             vendedor.ActualizarNombre(event.getNombre());
         });
         apply((TelefonoAsesorCreditoActualizado event) -> {
-            empleado.asesorCredito.nombre = event.getTelefono();
+            empleado.asesorCredito.telefono = event.getTelefono();
         });
         apply((TelefonoGerenteActualizado event) -> {
             empleado.gerente.telefono = event.getTelefono();

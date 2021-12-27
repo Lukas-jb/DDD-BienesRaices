@@ -10,7 +10,7 @@ public class ActualizarNombreCliente extends Command {
     private IdCliente entityId;
     private Nombre nombre;
 
-    public void ActualizarNombreCliente(IdComercial idComercial, IdCliente entityId, Nombre nombre) {
+    public ActualizarNombreCliente(IdComercial idComercial, IdCliente entityId, Nombre nombre) {
         this.idComercial = idComercial;
         this.entityId = entityId;
         this.nombre = nombre;

@@ -62,8 +62,8 @@ class AgregarAsesorCreditoUseCaseTest {
     private List<DomainEvent> eventList() {
         return List.of(new EmpleadoCreado(
                 IdEmpleado.of("xx"),
-                new Zona(Zona.Valor.NORTE)
-        ));
+                new Zona(Zona.Valor.NORTE),
+                new AsesorCreditoAgregado(IdAsesorCredito.of("12020"), new Nombre("Pablo"), new Telefono("4952586"))));
 
     }
 }

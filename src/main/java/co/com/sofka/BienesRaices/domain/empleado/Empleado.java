@@ -27,7 +27,7 @@ public class Empleado extends AggregateEvent<IdEmpleado> {
     public Empleado(IdEmpleado entityId, Zona zona) {
         super(entityId);
         this.zona = Objects.requireNonNull(zona);
-        appendChange(new EmpleadoCreado(entityId, zona)).apply();
+        appendChange(new EmpleadoCreado(entityId, zona, new AsesorCreditoAgregado(IdAsesorCredito.of("12020"), new Nombre("Pablo"), new Telefono("4952586")))).apply();
     }
 
     private Empleado (IdEmpleado entityId){
@@ -90,11 +90,11 @@ public class Empleado extends AggregateEvent<IdEmpleado> {
         appendChange(new GerenteAgregado(entityId, nombre, telefono));
     }
 
-    public void ActualizarTelefonoAsesorCredito(IdAsesorCredito entityId, Nombre nombre) {
+    public void ActualizarTelefonoAsesorCredito(IdAsesorCredito entityId, Telefono telefono) {
         Objects.nonNull(entityId);
-        Objects.nonNull(nombre);
+        Objects.nonNull(telefono);
 
-        appendChange(new TelefonoAsesorCreditoActualizado(entityId, nombre));
+        appendChange(new TelefonoAsesorCreditoActualizado(entityId, telefono));
 
     }
 
@@ -109,5 +109,13 @@ public class Empleado extends AggregateEvent<IdEmpleado> {
 
     public Set<Vendedor> getVendedo() {
         return vendedores;
+    }
+
+    public Gerente gerente() {
+        return gerente;
+    }
+
+    public AsesorCredito getAsesorCredito() {
+        return asesorCredito;
     }
 }
