@@ -10,7 +10,7 @@ public class ComercialCreado extends DomainEvent {
     private final Telefono telefono;
     private final Ubicacion ubicacion;
 
-    public ComercialCreado(IdComercial entityId, Telefono telefono, Ubicacion ubicacion) {
+    public ComercialCreado(IdComercial entityId, Telefono telefono, Ubicacion ubicacion, ClienteAgregado clienteAgregado) {
         super("sofka.Comercial.ComercialCreado");
         this.entityId = entityId;
         this.telefono = telefono;

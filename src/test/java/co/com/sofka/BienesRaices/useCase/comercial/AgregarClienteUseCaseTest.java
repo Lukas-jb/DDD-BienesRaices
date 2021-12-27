@@ -65,8 +65,8 @@ class AgregarClienteUseCaseTest {
         return List.of(new ComercialCreado(
                 IdComercial.of("XXXX"),
                 new Telefono("5555555"),
-                new Ubicacion("calle con esquina")
-        ));
+                new Ubicacion("calle con esquina"),
+                new ClienteAgregado(IdCliente.of("QQQ"), new Nombre("Paola"), new Telefono("5555555"))));
     }
 
 }

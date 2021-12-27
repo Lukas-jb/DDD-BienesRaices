@@ -28,7 +28,7 @@ public class Comercial extends AggregateEvent<IdComercial> {
         super(entityId);
         this.telefono = telefono;
         this.ubicacion = ubicacion;
-        appendChange(new ComercialCreado(entityId, telefono, ubicacion)).apply();
+        appendChange(new ComercialCreado(entityId, telefono, ubicacion, new ClienteAgregado(IdCliente.of("QQQ"), new Nombre("Paola"), new Telefono("5555555")))).apply();
     }
 
     public Comercial(IdComercial entityId) {
